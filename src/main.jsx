@@ -1,15 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "../routes/App.jsx";
+import App from "./routes/App.jsx";
 import "./index.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Login from "./feature/auth/Login.jsx";
-import DashLayout from "../components/DashLayout.jsx";
+import DashLayout from "./components/DashLayout.jsx";
 import Welcome from "./feature/auth/Welcome.jsx";
 import NotesList from "./feature/notes/NoteList.jsx";
 import UsersList from "./feature/users/UserList.jsx";
-import Public from "../components/Public.jsx";
+import Public from "./components/Public.jsx";
 import { store } from "../src/app/store";
 import { Provider } from "react-redux";
 import EditUser from "./feature/users/EditUser.jsx";

@@ -1,19 +1,19 @@
 import { Outlet } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
-import EditUser from "../src/feature/users/EditUser.jsx";
-import NewUserForm from "../src/feature/users/NewUserForm.jsx";
-import NewNote from "../src/feature/notes/NewNote.jsx";
-import EditNote from "../src/feature/notes/EditNote.jsx";
-import Prefetch from "../src/feature/auth/Prefetch.jsx";
-import RequireAuth from "../src/feature/auth/RequireAuth.jsx";
-import { ROLES } from "../src/config/role.jsx";
+import EditUser from "../feature/users/EditUser.jsx";
+import NewUserForm from "../feature/users/NewUserForm.jsx";
+import NewNote from "../feature/notes/NewNote.jsx";
+import EditNote from "../feature/notes/EditNote.jsx";
+import Prefetch from "../feature/auth/Prefetch.jsx";
+import RequireAuth from "../feature/auth/RequireAuth.jsx";
+import { ROLES } from "../config/role.jsx";
 
-import Login from "../src/feature/auth/Login.jsx";
+import Login from "../feature/auth/Login.jsx";
 import DashLayout from "../components/DashLayout.jsx";
-import Welcome from "../src/feature/auth/Welcome.jsx";
-import NotesList from "../src/feature/notes/NoteList.jsx";
-import UsersList from "../src/feature/users/UserList.jsx";
+import Welcome from "../feature/auth/Welcome.jsx";
+import NotesList from "../feature/notes/NoteList.jsx";
+import UsersList from "../feature/users/UserList.jsx";
 import Public from "../components/Public.jsx";
 import Layout from "../components/Layout.jsx";
 function App() {

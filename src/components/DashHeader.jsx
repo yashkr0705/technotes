@@ -9,8 +9,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate, Link, useLocation } from "react-router-dom";
 
-import { useSendLogoutMutation } from "../src/feature/auth/authApiSlice";
-import useAuth from "../src/hooks/useAuth";
+import { useSendLogoutMutation } from "../feature/auth/authApiSlice";
+import useAuth from "../hooks/useAuth";
 const DASH_REGEX = /^\/dash(\/)?$/;
 const NOTES_REGEX = /^\/dash\/notes(\/)?$/;
 const USERS_REGEX = /^\/dash\/users(\/)?$/;
