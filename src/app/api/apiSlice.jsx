@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import { setCredentials } from "../../feature/auth/authSlice";
 
 const baseQuery = fetchBaseQuery({
-  baseUrl: "http://complaint-api.onrender.com",
+  baseUrl: "https://complaintportalbackend.onrender.com",
   credentials: "include",
   prepareHeaders: (header, { getState }) => {
     const token = getState().auth.token;
