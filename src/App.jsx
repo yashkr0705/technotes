@@ -1,21 +1,21 @@
 import { Outlet } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
-import EditUser from "../feature/users/EditUser.jsx";
-import NewUserForm from "../feature/users/NewUserForm.jsx";
-import NewNote from "../feature/notes/NewNote.jsx";
-import EditNote from "../feature/notes/EditNote.jsx";
-import Prefetch from "../feature/auth/Prefetch.jsx";
-import RequireAuth from "../feature/auth/RequireAuth.jsx";
-import { ROLES } from "../config/role.jsx";
+import EditUser from "./feature/users/EditUser.jsx";
+import NewUserForm from "./feature/users/NewUserForm.jsx";
+import NewNote from "./feature/notes/NewNote.jsx";
+import EditNote from "./feature/notes/EditNote.jsx";
+import Prefetch from "./feature/auth/Prefetch.jsx";
+import RequireAuth from "./feature/auth/RequireAuth.jsx";
+import { ROLES } from "./config/role.jsx";
 
-import Login from "../feature/auth/Login.jsx";
-import DashLayout from "../components/DashLayout.jsx";
-import Welcome from "../feature/auth/Welcome.jsx";
-import NotesList from "../feature/notes/NoteList.jsx";
-import UsersList from "../feature/users/UserList.jsx";
-import Public from "../components/Public.jsx";
-import Layout from "../components/Layout.jsx";
+import Login from "./feature/auth/Login.jsx";
+import DashLayout from "./components/DashLayout.jsx";
+import Welcome from "./feature/auth/Welcome.jsx";
+import NotesList from "./feature/notes/NoteList.jsx";
+import UsersList from "./feature/users/UserList.jsx";
+import Public from "./components/Public.jsx";
+import Layout from "./components/Layout.jsx";
 function App() {
   return (
     <>
